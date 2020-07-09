@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/chasedurrett/chase_reddit_bot_node.js#readme",
   "dependencies": {
+    "docker": "^1.0.0",
     "dotenv": "^8.2.0",
     "snoostorm": "^1.5.0",
     "snoowrap": "^1.21.0"

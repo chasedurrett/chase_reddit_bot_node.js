@@ -1,0 +1,5 @@
+version: "4.2.2"
+services:
+  nodebot:
+    image: redditbot
+    build: .

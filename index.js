@@ -18,8 +18,8 @@ const r = new Snoowrap({
   password: REDDIT_PASS,
 });
 
-const stream = new Snoostorm.CommentStream(r, {
-  subreddit: "instantkarma",
+const stream = new CommentStream(r, {
+  subreddit: "Cozysounds",
   results: 25,
 });
 
@@ -28,8 +28,14 @@ stream.on("item", (comment) => {
     case "jimmy":
       comment.reply("Jimmy, I miss you");
       break;
-    case "F":
+    case "press F":
       comment.reply("F");
       break;
+    case "bruh":
+      comment.reply("jimmy");
+      break;
+    case "james":
+      comment.reply("jimmy");
+      break;    
   }
 });
