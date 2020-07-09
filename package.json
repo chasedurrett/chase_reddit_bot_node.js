@@ -1,0 +1,24 @@
+{
+  "name": "chase_reddit_bot_nodejs",
+  "version": "1.0.0",
+  "description": "bot",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chasedurrett/chase_reddit_bot_node.js.git"
+  },
+  "author": "Chase Durrett",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chasedurrett/chase_reddit_bot_node.js/issues"
+  },
+  "homepage": "https://github.com/chasedurrett/chase_reddit_bot_node.js#readme",
+  "dependencies": {
+    "dotenv": "^8.2.0",
+    "snoostorm": "^1.5.0",
+    "snoowrap": "^1.21.0"
+  }
+}
